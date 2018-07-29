@@ -46,8 +46,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         Picasso.get()
                 .load(items.getImg())
                 .into(holder.img);
-
-
     }
 
     @Override

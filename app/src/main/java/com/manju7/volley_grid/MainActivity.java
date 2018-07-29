@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
         itemsList=new ArrayList<>();
 
         loadData();
-
-
     }
 
     private void loadData() {
