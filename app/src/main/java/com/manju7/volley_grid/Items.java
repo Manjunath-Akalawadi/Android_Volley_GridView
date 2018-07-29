@@ -3,24 +3,24 @@ package com.manju7.volley_grid;
 public class Items {
 
     String name;
-    String desc;
     String age;
+    String img;
 
-    public Items(String name, String desc, String age) {
+    public Items(String name, String age, String img) {
         this.name = name;
-        this.desc = desc;
         this.age = age;
+        this.img = img;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getDesc() {
-        return desc;
-    }
-
     public String getAge() {
         return age;
+    }
+
+    public String getImg() {
+        return img;
     }
 }

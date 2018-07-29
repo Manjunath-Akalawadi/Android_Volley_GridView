@@ -20,7 +20,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String URL="https://api.myjson.com/bins/zac6y";
+    private static final String URL="https://api.myjson.com/bins/1gbriy";
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
                         Items items = new Items(
 
                                 object.getString("name"),
-                                object.getString("desc"),
-                                object.getString("age")
+                                object.getString("age"),
+                                object.getString("img")
                         );
 
                         itemsList.add(items);
